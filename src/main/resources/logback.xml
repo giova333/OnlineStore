@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- To enable JMX Management -->
+    <jmxConfigurator/>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.gladunalexander" level="debug" />
+    <logger name="org.springframework" level="info" />
+    <logger name="org.hibernate" level="warn" />
+    <logger name="org.hibernate.type.descriptor.sql.BasicBinder" level="warn" />
+    <logger name="org.springframework.web" level="info" />
+    <logger name="org.springframework.security" level="debug" />
+
+    <root level="warn">
+        <appender-ref ref="CONSOLE" />
+    </root>
+
+</configuration>

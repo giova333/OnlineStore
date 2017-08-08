@@ -1,0 +1,241 @@
+body {
+    padding-top: 50px;
+    background-color: #ffffff;
+}
+
+.navbar{
+    height: 40px;
+}
+
+.business-header {
+    height: 400px;
+    background: url('http://localhost:8080/resources/img/header.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.jumbotron-margin {
+    margin-top: 50px;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+    padding-left: 20px ;
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input {
+    margin-top: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin button {
+    margin-top: 10px;
+}
+
+.has-error {
+    color: red
+}
+
+.msg {
+    color: forestgreen;
+}
+
+.fgp {
+    margin-top:10px;
+    font-size: small;
+}
+
+.fgp-modal {
+    margin-top: 100px;
+}
+
+.title {
+    font-size: 50px;
+    font-family: 'Passion One', cursive;
+    font-weight: 400;
+}
+
+.awesome{
+    font-size: 30px;
+    font-family: 'Passion One', cursive;
+    font-weight: 400;
+}
+
+.thead-inverse{
+    background-color: #2E2E2E;
+}
+
+.thead-inverse th{
+    color: white;
+}
+
+tbody {
+    background-color: white;
+}
+
+hr{
+    width: 10%;
+    color: #fff;
+}
+
+.reg{
+    margin-bottom: 15px;
+}
+
+label{
+    margin-bottom: 15px;
+}
+
+.inpt,
+.inpt::-webkit-input-placeholder {
+    height: 28px;
+    width: 240px;
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login{
+    background-color: #fafafa;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+    margin-top: 30px;
+    margin: 0 auto;
+    max-width: 330px;
+    padding: 40px 40px;
+
+}
+
+.login-button{
+    margin-top: 5px;
+}
+
+.login-register{
+    font-size: 11px;
+    text-align: center;
+}
+
+.add {
+   position: relative;
+    bottom:40px;
+    right: 20px;
+}
+
+.form-add {
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.products{
+    width: 180px;
+    height: 180px;
+}
+
+.productList{
+    margin-top: 20px;
+}
+
+.single{
+    width: 300px;
+    height: 300px;
+}
+
+.quantity{
+    width: 80px;
+    height: 20px;
+}
+
+.addProduct{
+    width: 400px;
+    margin-left: 50px;
+}
+
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+        width:20%;
+        display: inline !important;
+    }
+    .actions .btn{
+        width:36%;
+        margin:1.5em 0;
+    }
+
+    .actions .btn-info{
+        float:left;
+    }
+    .actions .btn-danger{
+        float:right;
+    }
+
+    table#cart thead { display: none; }
+    table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+    table#cart tbody tr td:first-child { background: #333; color: #fff; }
+    table#cart tbody td:before {
+        content: attr(data-th); font-weight: bold;
+        display: inline-block; width: 8rem;
+    }
+
+    table#cart tfoot td{display:block; }
+    table#cart tfoot td .btn{display:block;}
+}
+
+#cartItems{
+    color: red;
+    font-size: small;
+    font-family: 'Passion One', cursive;
+}
+
+
