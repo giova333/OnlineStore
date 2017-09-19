@@ -13,3 +13,7 @@ You can always monitore your application with Spring Boot Actuator: http://local
 This application is intagrated with Stripe Payment Gatewaty, users can purchase products in Stripe Testing Mode.
 All products images are stored in resource folder and in Amazon S3 Strage.
 
+# How to build
+```
+mvn clean install
+```
